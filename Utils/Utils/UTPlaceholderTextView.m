@@ -13,7 +13,7 @@
 	UIColor *_placeholderColor;
 }
 
-@property (nonatomic) BOOL showsPlaceholder;
+@property (nonatomic, readwrite) BOOL showsPlaceholder;
 @property (nonatomic, strong) UIColor *previousTextColor;
 
 @end
@@ -99,7 +99,7 @@
 {
 	if (nil == _placeholderColor)
 	{
-		_placeholderColor = [UIColor colorWithWhite:0.7f alpha:1.0f]; // Default color is the same as in UITextField
+		_placeholderColor = [UIColor colorWithWhite:0.7f alpha:1.0f];
 	}
 	
 	return _placeholderColor;

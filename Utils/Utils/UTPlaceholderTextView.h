@@ -10,7 +10,10 @@
 
 @interface UTPlaceholderTextView : UITextView
 
+@property (nonatomic, readonly) BOOL showsPlaceholder;
+
 @property (nonatomic, copy) NSString *placeholder;
-@property (nonatomic, strong) UIColor *placeholderColor;
+
+@property (nonatomic, strong) UIColor *placeholderColor; // Default color is the same as in UITextField
 
 @end
