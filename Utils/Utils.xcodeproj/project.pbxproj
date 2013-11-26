@@ -11,10 +11,11 @@
 		5F1D41F51845153B0096AEC4 /* Utils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5F1D41F41845153B0096AEC4 /* Utils.h */; };
 		5F1D41FE1845153B0096AEC4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F1D41FD1845153B0096AEC4 /* XCTest.framework */; };
 		5F1D41FF1845153B0096AEC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F1D41EF1845153B0096AEC4 /* Foundation.framework */; };
-		5F1D42011845153B0096AEC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F1D42001845153B0096AEC4 /* UIKit.framework */; };
 		5F1D42041845153B0096AEC4 /* libUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F1D41EC1845153B0096AEC4 /* libUtils.a */; };
 		5F1D420A1845153B0096AEC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F1D42081845153B0096AEC4 /* InfoPlist.strings */; };
 		5F1D420C1845153B0096AEC4 /* UtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1D420B1845153B0096AEC4 /* UtilsTests.m */; };
+		5F1D42171845159F0096AEC4 /* UTPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1D42161845159F0096AEC4 /* UTPlaceholderTextView.m */; };
+		5F1D42191845162C0096AEC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F1D42181845162C0096AEC4 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,10 +48,12 @@
 		5F1D41F41845153B0096AEC4 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		5F1D41FC1845153B0096AEC4 /* UtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F1D41FD1845153B0096AEC4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		5F1D42001845153B0096AEC4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		5F1D42071845153B0096AEC4 /* UtilsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UtilsTests-Info.plist"; sourceTree = "<group>"; };
 		5F1D42091845153B0096AEC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5F1D420B1845153B0096AEC4 /* UtilsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UtilsTests.m; sourceTree = "<group>"; };
+		5F1D42151845159F0096AEC4 /* UTPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTPlaceholderTextView.h; sourceTree = "<group>"; };
+		5F1D42161845159F0096AEC4 /* UTPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTPlaceholderTextView.m; sourceTree = "<group>"; };
+		5F1D42181845162C0096AEC4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F1D42191845162C0096AEC4 /* UIKit.framework in Frameworks */,
 				5F1D41F01845153B0096AEC4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,7 +72,6 @@
 			files = (
 				5F1D41FE1845153B0096AEC4 /* XCTest.framework in Frameworks */,
 				5F1D42041845153B0096AEC4 /* libUtils.a in Frameworks */,
-				5F1D42011845153B0096AEC4 /* UIKit.framework in Frameworks */,
 				5F1D41FF1845153B0096AEC4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -98,9 +101,9 @@
 		5F1D41EE1845153B0096AEC4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5F1D42181845162C0096AEC4 /* UIKit.framework */,
 				5F1D41EF1845153B0096AEC4 /* Foundation.framework */,
 				5F1D41FD1845153B0096AEC4 /* XCTest.framework */,
-				5F1D42001845153B0096AEC4 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -110,6 +113,8 @@
 			children = (
 				5F1D41F41845153B0096AEC4 /* Utils.h */,
 				5F1D41F21845153B0096AEC4 /* Supporting Files */,
+				5F1D42151845159F0096AEC4 /* UTPlaceholderTextView.h */,
+				5F1D42161845159F0096AEC4 /* UTPlaceholderTextView.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F1D42171845159F0096AEC4 /* UTPlaceholderTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -318,7 +324,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
