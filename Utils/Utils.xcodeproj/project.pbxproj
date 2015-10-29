@@ -16,6 +16,7 @@
 		5F1D420C1845153B0096AEC4 /* UtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1D420B1845153B0096AEC4 /* UtilsTests.m */; };
 		5F1D42171845159F0096AEC4 /* UTPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1D42161845159F0096AEC4 /* UTPlaceholderTextView.m */; };
 		5F1D42191845162C0096AEC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F1D42181845162C0096AEC4 /* UIKit.framework */; };
+		5F5D808E1BE2568C007EC605 /* UTSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5D808D1BE2568C007EC605 /* UTSignatureView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		5F1D42151845159F0096AEC4 /* UTPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTPlaceholderTextView.h; sourceTree = "<group>"; };
 		5F1D42161845159F0096AEC4 /* UTPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTPlaceholderTextView.m; sourceTree = "<group>"; };
 		5F1D42181845162C0096AEC4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5F5D808C1BE2568C007EC605 /* UTSignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTSignatureView.h; sourceTree = "<group>"; };
+		5F5D808D1BE2568C007EC605 /* UTSignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTSignatureView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				5F1D41F21845153B0096AEC4 /* Supporting Files */,
 				5F1D42151845159F0096AEC4 /* UTPlaceholderTextView.h */,
 				5F1D42161845159F0096AEC4 /* UTPlaceholderTextView.m */,
+				5F5D808C1BE2568C007EC605 /* UTSignatureView.h */,
+				5F5D808D1BE2568C007EC605 /* UTSignatureView.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -227,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F1D42171845159F0096AEC4 /* UTPlaceholderTextView.m in Sources */,
+				5F5D808E1BE2568C007EC605 /* UTSignatureView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
